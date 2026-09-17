@@ -1,0 +1,48 @@
+# ===== Environment variables (NEVER commit secrets) =====
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# ===== Python / FastAPI =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# ===== SQLite database =====
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+
+# ===== Node / React / Vite =====
+node_modules/
+frontend/dist/
+frontend/build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/extensions.json
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
